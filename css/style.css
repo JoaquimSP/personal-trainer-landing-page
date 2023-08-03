@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,17 +10,27 @@
 body {
     background-color: #1E1E1E;
     color: #FFFF;
+    font-family: 'Overpass', sans-serif;
 }
 
 header {
     display: flex;
     align-items: center;
-    margin: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
 }
 
 nav a {
     text-decoration: none;
     color: #FFFF;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 nav a:hover {
@@ -26,12 +38,38 @@ nav a:hover {
     color: #EBD512;
 }
 
-main {
+.content {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2EF;
+}
+
+.content-main {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFF2E7;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #ECD6C4;
 }
 
 .main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+.main-img {
+    height: 350px;
 }
 
 button {
