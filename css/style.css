@@ -40,7 +40,7 @@ nav a:hover {
 
 .content {
     margin-bottom: 48px;
-    border-top: 0.4px solid #FFF2EF;
+    border-top: 0.4px solid #FFFF;
 }
 
 .content-main {
@@ -50,31 +50,31 @@ nav a:hover {
     justify-content: space-around;
 }
 
-h1 {
-    font-weight: 400;
-    font-size: 48px;
-    color: #FFF2E7;
-}
-
-h2 {
-    font-weight: 400;
-    font-size: 30px;
-    color: #ECD6C4;
-}
-
 .main-text {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.main-img {
-    height: 350px;
-}
-
 button {
     background-color: #EBD512;
-    width: 80px;
-    height: 35px;
+    width: 8em;
+    height: 2.3em;
     border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+h1 {
+    /* font-weight: 200; */
+    font-size: 3em; 
+}
+
+h2 {
+    /* font-weight: 200; */
+    font-size: 1.3em;  
+}
+
+.main-img {
+/* height: 350px; */
 }
