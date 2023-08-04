@@ -81,24 +81,30 @@ h2 {
 }
 
 .content-secondary {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px; */
-    background-color: white;
+    margin-top: 15px; 
+    border-top: 0.4px solid #FFF2E7;
 }
 
 .flex-container {
     display: flex;
-    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* flex-direction: row;
     /* align-items: center; */
-    justify-content: center; /*space-around */
+    /* justify-content: center; */
+    justify-content: space-around;
 }
 
 .flex-container > p {
-    width: 100px;
+    width: 120px;
     margin: 10px;
     text-align: center;
-    line-height: 20px;
-    background-color: blue;
+    /* background-color: blue; */
+    padding: 5px;
+}
+
+strong {
+    color: #EBD512;
 }
