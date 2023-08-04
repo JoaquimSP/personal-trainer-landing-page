@@ -80,10 +80,6 @@ h2 {
     font-size: 1.3em;  
 }
 
-.main-img {
-   /* height: 330px; */
-}
-
 .content-secondary {
     display: flex;
     flex-direction: column;
