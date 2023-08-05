@@ -100,11 +100,17 @@ h2 {
 }
 
 .flex-container > p {
-    width: 120px;
+    font-size: 1em;
+    width: 100px;
     margin: 20px;
     text-align: center;
     /* background-color: blue; */
     padding: 5px;
+}
+
+.last-text {
+    padding: 5px;
+    text-align: center;
 }
 
 strong {
