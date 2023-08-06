@@ -131,3 +131,14 @@ footer p {
     padding-top: 15px;
     text-align: center;
 }
+
+footer p a {
+    color: #EBD512;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #FFFF;
+    text-decoration: underline;
+}
