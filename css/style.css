@@ -9,7 +9,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
 
 body {
-    /* font-size: 100%; */
     background-color: #1E1E1E;
     color: #FFFF;
     font-family: 'Overpass', sans-serif;
@@ -93,9 +92,6 @@ h2 {
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: row;
-    /* align-items: center; */
-    /* justify-content: center; */
     justify-content: space-around;
 }
 
@@ -104,7 +100,6 @@ h2 {
     width: 100px;
     margin: 20px;
     text-align: center;
-    /* background-color: blue; */
     padding: 5px;
 }
 
