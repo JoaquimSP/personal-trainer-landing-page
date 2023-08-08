@@ -1,6 +1,6 @@
 # personal-trainer-landing-page
 
- 💪 Landing page criada para um Personal Trainer divulgar o seu trabalho. 
+ 💪 Uma Landing Page criada para um personal trainer promover seus serviços de forma informativa.
 
  🎨 Tema inspirado na landing page da Rafaella Ballerini.
  
